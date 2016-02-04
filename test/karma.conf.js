@@ -70,8 +70,12 @@ module.exports = function(config) {
     singleRun: true,
     reporters: ['dots', 'junit'],
     junitReporter: {
-      outputDir: 'test/test-reports',
-      outputFile: 'test-results.xml'
+      outputDir: 'test/test-reports/',
+      outputFile: 'test-results.xml',
+      suite: 'testSuiteNameHere',
+      useBrowserName: true,
+      nameFormatter: undefined,
+      classNameFormatter: undefined
     },
 
     colors: true,
