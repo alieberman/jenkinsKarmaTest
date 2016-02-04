@@ -72,7 +72,7 @@ module.exports = function(config) {
     junitReporter: {
       outputDir: 'test/test-reports/',
       outputFile: 'test-results.xml',
-      suite: 'testSuiteNameHere',
+      suite: '',
       useBrowserName: true,
       nameFormatter: undefined,
       classNameFormatter: undefined
