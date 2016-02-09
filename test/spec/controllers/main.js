@@ -18,7 +18,7 @@ describe('Controller: MainCtrl', function () {
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(MainCtrl.awesomeThings.length).toBe(4);
+    expect(MainCtrl.awesomeThings.length).toBe(3);
   });
   it('array contains AngularJS', function () {
     expect(MainCtrl.awesomeThings).toEqual(jasmine.arrayContaining(['AngularJS']));
