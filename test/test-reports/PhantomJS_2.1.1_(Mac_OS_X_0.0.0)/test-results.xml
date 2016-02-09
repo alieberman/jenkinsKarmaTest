@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="testSuiteNameHere" timestamp="2016-02-04T21:35:44" id="0" hostname="AaronMacBookPro.local" tests="3" errors="0" failures="0" time="0.013">
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2016-02-09T18:11:44" id="0" hostname="AaronMacBookPro.local" tests="3" errors="0" failures="0" time="0.016">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
   </properties>
-  <testcase name="should attach a list of awesomeThings to the scope" time="0.01" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).testSuiteNameHere.Controller: AboutCtrl"/>
-  <testcase name="should attach a list of awesomeThings to the scope" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).testSuiteNameHere.Controller: MainCtrl"/>
-  <testcase name="array contains AngularJS" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).testSuiteNameHere.Controller: MainCtrl"/>
+  <testcase name="should attach a list of awesomeThings to the scope" time="0.01" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: AboutCtrl"/>
+  <testcase name="should attach a list of awesomeThings to the scope" time="0.004" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: MainCtrl"/>
+  <testcase name="array contains AngularJS" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: MainCtrl"/>
   <system-out>
     <![CDATA[
 ]]>
