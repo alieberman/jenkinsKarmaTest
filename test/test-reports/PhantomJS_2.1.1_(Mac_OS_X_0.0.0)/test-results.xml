@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2016-02-10T20:16:15" id="0" hostname="AaronMacBookPro.local" tests="3" errors="0" failures="1" time="0.018">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
@@ -9,6 +10,14 @@
 http://localhost:8080/_karma_/Users/aaronlieberman/Documents/BigCompassProjects/Karma/test/spec/controllers/main.js:21:47
 </failure>
   </testcase>
+=======
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2016-02-09T18:54:05" id="0" hostname="Mikes-MacBook-Pro-2.local" tests="3" errors="0" failures="0" time="0.019">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="should attach a list of awesomeThings to the scope" time="0.014" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: AboutCtrl"/>
+  <testcase name="should attach a list of awesomeThings to the scope" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: MainCtrl"/>
+>>>>>>> 6b6769c067e761f406a8729e2a7f68c8ce6d20e8
   <testcase name="array contains AngularJS" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Controller: MainCtrl"/>
   <system-out>
     <![CDATA[
