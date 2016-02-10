@@ -12,7 +12,6 @@ angular.module('karmaApp')
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma',
-      'demoTask'
+      'Karma'
     ];
   });
