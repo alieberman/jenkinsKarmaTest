@@ -424,7 +424,7 @@ module.exports = function (grunt) {
       options: {
         'local_path': 'dist',
         'current_symlink': 'current',
-        'deploy_path': '/usr/local/tomcat/apache-tomcat-8.0.30/webapps/app'
+        'deploy_path': '/home/tomcat/projects/testApp'
       },
       prod: {
         options: {
