@@ -220,7 +220,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -417,6 +417,27 @@ module.exports = function (grunt) {
       ]
     },
 
+    // ssh-deploy config
+    envConfig: grunt.file.readJSON('env-config.json'),
+
+    environments: {
+      options: {
+        'local_path': 'dist',
+        'current_symlink': 'current',
+        'deploy_path': '/home/tomcat/projects/testApp'
+      },
+      prod: {
+        options: {
+          host: '<%= envConfig.app.prod.host %>',
+          username: '<%= envConfig.app.prod.username %>',
+          password: '<%= envConfig.app.prod.password %>',
+          port: '<%= envConfig.app.prod.port %>',
+          'number_of_releases': '5',
+          debug: true
+        }
+      }
+    },
+
     // Test settings
     karma: {
       unit: {
@@ -479,5 +500,10 @@ module.exports = function (grunt) {
     'newer:jscs',
     'test',
     'build'
+  ]);
+  grunt.registerTask('deploy', [
+    'test',
+    'build',
+    'ssh_deploy:prod'
   ]);
 };

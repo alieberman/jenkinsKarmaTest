@@ -1,0 +1,14 @@
+{
+ "app": {
+   "local": {
+     "apiBase": "http://localhost:8080/api/"
+   },
+   "prod": {
+     "host": "thor.bigcompass.com",
+     "username": "tomcat",
+     "password": "t0mmyUser",
+     "port": 22,
+     "apiBase": "http://thor.bigcompass.com:3456/api"
+   }
+ }
+}
