@@ -12,7 +12,8 @@ angular.module('karmaApp')
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Karma'
+      'Karma',
+       'fixing issue11'
     ];
     $scope.driver = Driver.get();
   });
