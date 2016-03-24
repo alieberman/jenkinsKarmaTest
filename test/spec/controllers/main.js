@@ -17,10 +17,13 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should expect awesome things to be a length of 3', function () {
-    expect(MainCtrl.awesomeThings.length).toBe(3);
-  });
-  it('array contains AngularJS', function () {
-    expect(MainCtrl.awesomeThings).toEqual(jasmine.arrayContaining(['AngularJS']));
+  // it('should expect awesome things to be a length of 3', function () {
+  //   expect(MainCtrl.awesomeThings.length).toBe(3);
+  // });
+  // it('array contains AngularJS', function () {
+  //   expect(MainCtrl.awesomeThings).toEqual(jasmine.arrayContaining(['AngularJS']));
+  // });
+  it('should expect greeting to not be null', function () {
+    expect(scope.greeting2.content).toEqual('Hello World!');
   });
 });
