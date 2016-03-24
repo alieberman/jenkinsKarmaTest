@@ -17,7 +17,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
+  it('should expect awesome things to be a length of 3', function () {
     expect(MainCtrl.awesomeThings.length).toBe(3);
   });
   it('array contains AngularJS', function () {
