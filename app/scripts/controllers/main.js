@@ -8,11 +8,10 @@
  * Controller of the karmaApp
  */
 angular.module('karmaApp')
-  .controller('MainCtrl', function ($scope, Driver) {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, Driver, Greeting) {
+    //$scope.greeting = {id: 'xxx', content: 'Hello World!'};
     $scope.driver = Driver.get();
+    $scope.greeting = Greeting.get(function(res) {
+      console.log(res);
+    });
   });
